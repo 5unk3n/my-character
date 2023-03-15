@@ -1,0 +1,148 @@
+body {
+  background-color: lightblue;
+}
+
+.character {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* cap */
+.cap {
+  position: relative;
+  z-index: 1;
+  transform: rotate(10deg) translate(7%, -50%);
+}
+.cap-yellow {
+  width: 500px;
+  height: 180px;
+  background: #d5af2b;
+  border-radius: 500px 500px 0px 0px;
+  position: absolute;
+}
+.cap-red {
+  width: 350px;
+  height: 180px;
+  background: #b43434;
+  border-radius: 350px 350px 0px 0px;
+  margin: auto;
+}
+.cap-blue {
+  width: 120px;
+  height: 180px;
+  background: #3450b4;
+  border-radius: 500px 500px 0px 0px;
+  margin: auto;
+}
+
+.pinwheel {
+  position: relative;
+  height: 100px;
+}
+
+.wing1 {
+  width: 340px;
+  height: 40px;
+  background-color: #42a41f;
+  border-radius: 100%;
+  position: absolute;
+  left: 45%;
+}
+.wing2 {
+  width: 340px;
+  height: 40px;
+  background-color: #3450b4;
+  border-radius: 100%;
+  position: absolute;
+  right: 45%;
+}
+.stick {
+  width: 25px;
+  height: 100%;
+  background-color: #d9d9d9;
+  margin: auto;
+  transform: translateY(25px);
+}
+.brim {
+  width: 620px;
+  height: 140px;
+  background-color: #42a41f;
+  border-radius: 100%;
+  position: absolute;
+  z-index: -1;
+  left: -130px;
+  top: 200px;
+  transform: rotate(-10deg);
+}
+
+/* face */
+.face {
+  width: 500px;
+  height: 500px;
+  background-color: #f4e984;
+  border-radius: 50%;
+  position: relative;
+}
+
+/* eyes */
+.eye1 {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 95px;
+  top: 171px;
+}
+.eye2 {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 95px;
+  top: 171px;
+}
+.pupil {
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  border-radius: 50%;
+  position: inherit;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.light1 {
+  width: 17px;
+  height: 17px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: inherit;
+  left: 5px;
+  top: 18px;
+}
+.light2 {
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: inherit;
+  left: 19px;
+  top: 34px;
+}
+
+/* mouth */
+.mouth {
+  width: 230px;
+  height: 130px;
+  background-color: #cd8282;
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+  transform: translate(-50%);
+  border-radius: 50%;
+  border: 10px solid #000;
+}
